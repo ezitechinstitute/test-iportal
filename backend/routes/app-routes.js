@@ -213,7 +213,7 @@ const {
 } = require("../controller/supervisor/supervisor-auth");
 const {
   CountProjects,
-  CountInPorgressProjects,
+  // CountInPorgressProjects,
   CountCompletedProjects,
   CountAttendance,
   CountHolidays,
@@ -463,7 +463,7 @@ router.get("/get-manager", GetManagerDetails);
 router.get("/get-intern-announcement", GetInternAnnouncements);
 // Intern Statics
 router.get("/count-int-proj", CountProjects);
-router.get("/count-int-prog-proj", CountInPorgressProjects);
+// router.get("/count-int-prog-proj", CountInPorgressProjects);
 router.get("/count-int-comp-proj", CountCompletedProjects);
 router.get("/count-int-attend", CountAttendance);
 router.get("/count-int-holidays", CountHolidays);
