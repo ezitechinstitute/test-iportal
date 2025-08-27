@@ -20,6 +20,7 @@ app.use(express.json());
 // Configure CORS options
 const corsOptions = {
   origin: [
+    "https://test-case.ezitech.org/",
     "https://interns.ezitech.org",
     "https://manager.ezitech.org",
     "https://admin.ezitech.org",
