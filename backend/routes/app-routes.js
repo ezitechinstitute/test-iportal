@@ -446,12 +446,12 @@ router.get("/get-intern-feedback", GetFeedback);
 
 
 //Certificate Request
-router.post("/certificate-request/:id", SubmitCertificateReq);
-router.put("/sup-approve-cert/:id", SupApproveCert);
-router.put("/manager-approve-cert/:id", ManApproveCert, CertificateIssuance);
-router.get("/get-all-certificates", GetAllCertificates);
-router.get('/get-certificates/:email', GetCertificatesByEmail);
-router.get("/get-certificate-requests", GetAllCertificateReqs);
+// router.post("/certificate-request/:id", SubmitCertificateReq);
+// router.put("/sup-approve-cert/:id", SupApproveCert);
+// router.put("/manager-approve-cert/:id", ManApproveCert, CertificateIssuance);
+// router.get("/get-all-certificates", GetAllCertificates);
+// router.get('/get-certificates/:email', GetCertificatesByEmail);
+// router.get("/get-certificate-requests", GetAllCertificateReqs);
 
 //offer Letter
 router.post("/intern-offer-letter", InsertOfferLetterRequest);
