@@ -1,0 +1,13 @@
+ 
+
+  .card-tile{
+    font-size: 26px;
+}
+
+
+ @media screen and (max-width:320px){
+    .btn1{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+ }
