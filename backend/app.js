@@ -6,8 +6,8 @@ const bodyParser = require("body-parser");
 const RunJob = require("./controller/combine/Run-Scheduler");
 const { VerifyEmail } = require("./controller/combine/Verify-Email");
 const dotenv = require("dotenv").config();
-const downloadRoutes = require("./routes/downloadRoutes");
-const affiliateRoutes = require("./routes/affiliate-routes");
+// const downloadRoutes = require("./routes/downloadRoutes");
+// const affiliateRoutes = require("./routes/affiliate-routes");
 
 const PORT = 8088;
 const path = require('path')
