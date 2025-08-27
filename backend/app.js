@@ -41,11 +41,11 @@ const certPath = path.join(__dirname, 'public/certificates');
 app.use('/certificates', express.static(path.join(__dirname, '/controller/public/certificates')));
 
 app.use(router);
-app.use('/api/affiliate', affiliateRoutes);
+// app.use('/api/affiliate', affiliateRoutes);
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 
-app.use('/', downloadRoutes);
+// app.use('/', downloadRoutes);
 const fs = require('fs');
 app.get('/list-certs', (req, res) => {
   const dir = path.join(__dirname, 'public/certificates');
