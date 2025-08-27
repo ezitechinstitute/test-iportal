@@ -20,8 +20,7 @@ const upload = multer({ storage });
 // Middleware to verify JWT
 const verifyToken = (req, res, next) => {
   try {
-    const token =
-      req.headers.authorization?.split(' ')[1] || req.headers['x-access-token'];
+    const token = req.headers['x-access-token'];
 
     if (!token) {
       return res.status(401).json({ error: 'Access token required' });
