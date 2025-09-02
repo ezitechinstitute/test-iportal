@@ -62,7 +62,11 @@ const ActiveIntern = () => {
 
   const fetchReport = async (eti_id, name) => {
   try {
+<<<<<<< HEAD
     const res = await axios.get(`https://testserver.ezitech.org/get-intern-full-report/${eti_id}`);
+=======
+    const res = await axios.get(`http://localhost:8088/get-intern-full-report/${eti_id}`);
+>>>>>>> origin/main
     setReportData(res.data.weekly); // weekly breakdown
     setReportName(name);
     setStaticInfo(res.data.info); 
